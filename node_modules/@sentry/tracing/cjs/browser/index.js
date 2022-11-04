@@ -1,0 +1,12 @@
+Object.defineProperties(exports, { __esModule: { value: true }, [Symbol.toStringTag]: { value: 'Module' } });
+
+const browsertracing = require('./browsertracing.js');
+const request = require('./request.js');
+
+;
+
+exports.BROWSER_TRACING_INTEGRATION_ID = browsertracing.BROWSER_TRACING_INTEGRATION_ID;
+exports.BrowserTracing = browsertracing.BrowserTracing;
+exports.defaultRequestInstrumentationOptions = request.defaultRequestInstrumentationOptions;
+exports.instrumentOutgoingRequests = request.instrumentOutgoingRequests;
+//# sourceMappingURL=index.js.map
